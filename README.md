@@ -2,12 +2,12 @@
 
 Duncan James
 
--This is a working repository containing every project and activity being submitted to the CodeNation Master Program
+Note to Instructors:
 
-NOTE:
-As this is a LIVE working repo, Not all projects are in a complete or functional state.
+This is a working repository, containing projects and activities for final submission to the CodeNation Master Program. As this is a LIVE working repo, duplicate files and folders may be present. 
+Not all projects are in a complete or functional state, files and folders will be removed or changed without notice.  Please consult with me directly if there is any confusion as to what exactly is to be graded, or handed in for final submission.
 
-Please consult with me directly if there is any confusion as to what exactly is to be graded, or handed in for submission.
+Thank You.
 
 
 
