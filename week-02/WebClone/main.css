@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+ 
+  }
+
+.mainContainer {
+  position: relative;
+  background-color: white;
+} 
+
+.header {
+  background-color: green;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+}
+
+.shoplink {
+  
+}
+
+.smallLogo {
+  position: absolute;
+}
+
+.heroContainer {
+  background-color: black;
+
+}
+.shopLink {
+  
+}
+
+.smallLogo {
+   
+}
+
+.header {
+ 
+}
+
+
+.heroContainer {
+  
+}
+
+
+.footer {
+
+}
