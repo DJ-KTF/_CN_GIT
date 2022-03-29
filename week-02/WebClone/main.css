@@ -1,11 +1,11 @@
 body {
   margin: 0;
- 
-  }
+  /* text-align: center; */
+   }
 
 .mainContainer {
   position: relative;
-  background-color: white;
+  background-color: black;
 } 
 
 .header {
@@ -16,7 +16,12 @@ body {
 }
 
 .shoplink {
-  
+  display:inline-block;
+}
+
+.textRight {
+
+
 }
 
 .smallLogo {
