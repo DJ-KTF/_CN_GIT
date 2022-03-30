@@ -1,4 +1,6 @@
-/* /* Some CSS Setup - nothing to do with flexbox */
+/* This was a super challenging assignment for me, 
+after hitting dead-ends and roadblocks to finish the final phase, I relied on internet research and a lot of experimenting to make this work on my screen. FlexBox and media queries are some areas I need to continuosly study*/
+
 html {
   box-sizing: border-box;
 }
@@ -38,16 +40,41 @@ a:hover {
   padding: 50px;
 }
 
-/* Flex Container */
 .flex-nav ul {
+  display: flex;
   border: 1px solid black;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-@media all and (max-width: 1000px) {
+.social {
+  width: 25%
 }
 
-@media all and (max-width: 500px) {
+li {
+  width: 50%;
+}
+
+
+@media all and (max-width: 1080px) {
+
+  .flex-nav ul {
+    flex-wrap: wrap;
+  }
+
+  li {
+    width: 50%;
+  }
+
+  .social {
+    width: 25%;
+  }
+}
+
+@media all and (max-width:540px) {
+
+  li {
+    width: 100%;
+  }
 }

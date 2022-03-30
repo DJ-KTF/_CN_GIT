@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .body {
   text-align: center;
   position: relative;
@@ -49,7 +55,7 @@ a {
 
 .logoBlack {
   /* display:flex; */
-  position: absolute;
+  position: fixed;
   height: 80px;
   right: 860px;
   top: 20px;
@@ -57,7 +63,7 @@ a {
 
 
 .textRight {
-  position: absolute;
+  position: fixed;
   right: 50px;
   top: 40px
 }
@@ -65,7 +71,7 @@ a {
 .hero {
   margin: 0 auto;
   margin-right: 0px;
-  margin-left: 20px;
+  margin-left: 0px;
   left:0px;
   height: 1000px;
   width: 100vw;
