@@ -1,16 +1,21 @@
 .body {
   text-align: center;
-  margin: none;
-  width: 100%;
   position: relative;
-}
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  }
+
 
 .header {
-  margin: 0;
+  margin: 0 auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  left:0px;
   position: fixed;
   background-color: white;
-  width: 100%;
-  height: 120px;
+  width: 100vw;
+  height: 140px;
   top: 0;
 }
 
@@ -28,37 +33,60 @@ h2 {
   font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Neue Bold", Icons;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   line-height: 0.8;
-}
-
-.shop {
-  position: absolute;
-  left: 20px;
-  top: 20px  
 }
 
 a {
   text-decoration: none;
 }
 
+.shop {
+  position: absolute;
+  left: 20px;
+  top: 40px  
+}
+
+.logoBlack {
+  /* display:flex; */
+  position: absolute;
+  height: 80px;
+  right: 860px;
+  top: 20px;
+}
+
+
 .textRight {
   position: absolute;
-  right: 20px;
-  top: 20px
+  right: 50px;
+  top: 40px
 }
 
 .hero {
-  margin: 0;
-  /* width:100%; */
-  height: 1100px;
+  margin: 0 auto;
+  margin-right: 0px;
+  margin-left: 20px;
+  left:0px;
+  height: 1000px;
+  width: 100vw;
   background-color: black;
 }
 
+.logoWhite {
+  /* display:flex; */
+  position: absolute;
+  top: 300px;
+  right: 380px;
+  margin: 0;
+  width: 60%;
+}
+
 .footer {
+  margin: 0 auto;
+  margin-right: 0px;
   color: white;
   height: 200px;
-  width: 100%;
+  width: 100vw;
   background-color: red;
 }
 
@@ -66,42 +94,16 @@ a {
   list-style: none;
   display: flex;
 }
+.social {
+  display: inline-block;
+  position: absolute;
+  left: 40px
 
+}
 .streamLinks {
   list-style: none;
   display: flex;
 }
-
-.downloadLinks {
-  list-style: none;
-  display: flex;
-}
-
-.logoBlack {
-  /* display:flex; */
-  position: absolute;
-  height: 80px;
-  width: 10%;
-  right: 900px;
-  bottom: 35px
-}
-
-.logoWhite {
-  /* display:flex; */
-  position: absolute;
-  margin: 0;
-  width: 75%;
-  right: 280px;
-  bottom: 20px
-}
-
-
-.social {
-  display: inline-block;
-  position: absolute;
-
-}
-
 .stream {
   display: inline-block;
   position: absolute;
@@ -109,10 +111,20 @@ a {
   bottom: 0px
 }
 
+li {
+  position: relative;
+  right: 50px;
+}
+
+.downloadLinks {
+  list-style: none;
+  display: flex;
+  
+ 
+}
 .download {
   display: inline-block;
   position: absolute;
-  left: 850px;
+  left: 600px;
   bottom: 0px
 }
-
