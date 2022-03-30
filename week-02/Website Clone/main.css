@@ -98,7 +98,9 @@ a {
 
 .socialLinks {
   list-style: none;
+  margin-left: 50px;
   display: flex;
+  flex-direction: row
 }
 .social {
   display: inline-block;
@@ -109,9 +111,11 @@ a {
 .streamLinks {
   list-style: none;
   display: flex;
+  margin-left: 50px;
 }
 .stream {
   display: inline-block;
+  right: 100px;
   position: absolute;
   left: 800px;
   bottom: 0px
